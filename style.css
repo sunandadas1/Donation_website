@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--start of home section--*/
+.home_section{
+    background-image: url(../images/Cyclone-Fani-How-You-Can-Help.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.home_section:before{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    background: rgba(157, 31, 31, 0.555);
+  
+}
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.home_contant {
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    padding: 0;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 0;
+    position: absolute;
+}
+
+.home_contant h1 {
+    font-size: 55px;
+    color: #fff;
+    font-weight: 800;
+    padding-bottom: 32px;
+}
+.home_contant p {
+    font-size: 17px;
+    color: #cfcfcf;
+}
+
+/* Button__Style */
+
+.button {
+    margin-top: 56px;
+}
+
+.button .btn {
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:white;
+    background: rgb(20, 89, 112);
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+/*--end of home section--*/
+
+/*--start of donate section---*/
+.donate_today{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.common_contant{
+    text-align: center;
+}
+
+.common_contant h2 {
+    font-size: 42px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.common_contant p {
+    width: 60%;
+    margin: 0 auto;
+    padding: 18px 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.donateamount_one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.donate_amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+
+.donate_amount span {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.amout_style {
+    background: rgba(255, 238, 238, 1);
+    border: 2px solid  #7d1a1a;
+    border-radius: 5px;
+}
+
+.amout_style span {
+    color: #7d1a1a;
+}
+
+
+.other_amount {
+    text-align: center;
+    position: relative;
+}
+
+input.others {
+    width: 50%;
+    text-align: center;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #DADADA;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 0;
+    outline: none;
+    letter-spacing: 2px;
+}
+
+/*--end of donate section--*/
+
+/*--start donate plan section--*/
+.donate_plan_area {
+    display: flex;
+    padding-top: 70px;
+}
+.donate_box {
+    background: #cec3c3;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 46px 20px;
+    border-radius: 5px;
+}
+
+.donate_box .icon {
+    width: 50px;
+    color: #ffff;
+}
+
+
+.donate_box h3 {
+    font-size: 22px;
+    padding: 14px 0;
+}
+
+.donate_box p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #707070;
+}
+
+.donate_plan{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.color_one {
+    background: rgb(143 50 50 / 10%);
+}
+
+.color_tow {
+    background: rgb(27 243 60 / 10%);
+}
+
+.color_three {
+    background: rgb(178 181 21 / 10%);
+}
+/*--End of donate setion area--*/
+
+/*--Welcome humanity section Start--*/
+.welcome_humanity{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.humanity_area {
+    display: flex;
+    padding-top: 70px;
+}
+
+.humanity_item img {
+    width: 100%;
+}
+
+.humanity_item {
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 3px 14px rgb(0 0 6 / 40%);
+    border-radius: 5px;
+}
+
+.humanity_text {
+    padding: 30px 17px;
+}
+
+.humanity_text h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.humanity_text span {
+    color: #df1111;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: block;
+    padding: 10px 0;
+}
+
+.humanity_text p {
+    font-size: 16px;
+    color: #707070;
+}
+/*--Wellcome humanity section--*/
+
+/*--Contact section Start--*/
+.contact_section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.submit_area {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: rgb(144 20 20 / 26%);
+    width: 60%;
+    margin: 0 auto;
+}
+.submit_area.margin{
+    margin-top: 60px;
+}
+
+.submit_area input {
+    padding: 16px 30px;
+    background: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius:  0px;
+    outline: none;
+    color: #000;
+    font-size: 15px;
+}
+
+.submit_area button {
+    padding: 16px 30px;
+    margin-left: -4px;
+    border: 1px solid #FF5959;
+    background: #FF5959;
+    font-size: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*--Contact section End--*/
+
+/*--Footer start--*/
+
+footer{
+    padding: 45px 0;
+    background: #0B0D17;
+}
+
+.footer_text{
+    text-align: center;
+}
+
+.footer_text h3 {
+    color: #FF5959;
+    font-size: 26px;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.footer_text span {
+    display: block;
+    color: #707070;
+    font-size: 20px;
+}
+/*--Footer End--*/
