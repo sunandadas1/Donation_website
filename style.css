@@ -11,7 +11,7 @@ body{
 
 /*--start of home section--*/
 .home_section{
-    background-image: url(../images/Cyclone-Fani-How-You-Can-Help.png);
+    background-image: url(./images/Cyclone-Fani-How-You-Can-Help.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -118,7 +118,7 @@ body{
     padding-bottom: 70px;
 }
 
-
+git address
 .donate_amount span {
     font-size: 26px;
     font-weight: 700;
